@@ -1,0 +1,124 @@
+    1  version
+    2  clear
+    3  git --version
+    4  ls -all
+    5  git init
+    6  ls -all
+    7  git config --global user.name shounakk219
+    8  git config --global list shounakk219
+    9  git config --global list
+   10  git config --list
+   11  git config --global user.email shounak.kulkarni@publicissapient.com
+   12  git config --list
+   13  git config --global --list
+   14  touch a.txt
+   15  ls
+   16  git status
+   17  git add a.txt 
+   18  git status
+   19  git commit -m "First commit"
+   20  git status
+   21  touch b.txt
+   22  ls
+   23  git add b.txt 
+   24  git commit -m "second commit"
+   25  git status
+   26  git log
+   27  cd .git
+   28  ls
+   29  cd objects/
+   30  ls
+   31  cd 03
+   32  ls
+   33  cat 64e02a94aeb625a5879512366348c2f939bc60 
+   34  cd ..
+   35  cd ..
+   36  cd ..
+   37  code .
+   38  git status
+   39  git status
+   40  git --checkout a.txt
+   41  git checkout a.txt
+   42  git status
+   43  git commit -am "Modified"
+   44  git status
+   45  git status
+   46  git add b.txt 
+   47  git status
+   48  git reset b.txt
+   49  git status
+   50  git add b.txt 
+   51  git reset b.txt
+   52  git checkout b.txt
+   53  git status
+   54  git log --oneline
+   55  git checkout 0364e02
+   56  git checkout master
+   57  touch b.txt
+   58  git add .
+   59  git commit -m "b created"
+   60  git remote add remote origin https://github.com/shounakmk219/git-session.git
+   61  git add remote origin https://github.com/shounakmk219/git-session.git
+   62  git remote add origin https://github.com/shounakmk219/git-session.git
+   63  git remote add origin https://github.com/shounakmk219/git-session.git
+   64  git remote add origin git@github.com:shounakmk219/git-session.git
+   65  git push -u origin master
+   66  git push -u shounakmk219 -p capt.levi1
+   67  git push -u shounakmk219 capt.levi1
+   68  clear
+   69  git push -u origin master
+   70  cd ..
+   71  git initiate
+   72  git init
+   73  git remote add origin git@github.com:shounakmk219/git-session.git
+   74  git push -u origin master
+   75  git config
+   76  git config -list
+   77  git config --list
+   78  git config --global user.name shounakmk219
+   79  git config --global user.email shounakmk219@gmail.com
+   80  git push -u origin master
+   81  git config --list
+   82  ls -all
+   83  git remote add origin git@github.com:shounakmk219/git-session.git
+   84  git push -u origin master
+   85  git push origin master --force
+   86  git push origin master --f
+   87  git push origin master -f
+   88  ls
+   89  ls -all
+   90  cd .git/
+   91  ls -all
+   92  cd refs/
+   93  ls -all
+   94  git commit -m "first commit"
+   95  git push
+   96  git remote add origin git@github.com:shounakmk219/git-session.git
+   97  git config --global --list
+   98  git init
+   99  git commit -m "hey"
+  100  git remote add origin git@github.com:shounakmk219/git-session.git
+  101  git push -u origin master
+  102  touch a.txt
+  103  git add a.txt 
+  104  git commit -m "first commit"
+  105  git push
+  106  git push -u origin master
+  107  git push -u origin master
+  108  cd ~/.ssh/
+  109  ls
+  110  ssh-keygen.exe
+  111  ls
+  112  notepad id_rsa.pub 
+  113  cd ..
+  114  cd
+  115  cd /c/git-demo/
+  116  git status
+  117  git remote show origin
+  118  git push -u origin master
+  119  touch b.txt
+  120  git add b.txt 
+  121  git commit -m "b added"
+  122  git push -u origin master
+  123  history
+  124  history> cmd.txt
